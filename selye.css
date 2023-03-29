@@ -154,7 +154,6 @@ header .container::after {
 
 header .logo img {
     width: 30%;
-    margin-left: 40px;
     filter: grayscale(900%) brightness(900%);
 }
 
@@ -204,6 +203,10 @@ header nav ul {
 }
 
 @media(max-width:767px) {
+    header .logo img {
+        width: 40%;
+    }
+
     header nav ul {
         display: none;
     }
@@ -1107,4 +1110,25 @@ footer .container .sec p {
     color: white;
     text-align: center;
     font-size: 17px;
+}
+
+@media(max-width:991px) {
+    footer {
+        padding: 40px;
+
+    }
+
+    footer .imges {
+        justify-content: center;
+    }
+
+    footer .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width:767px) {
+    footer .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
