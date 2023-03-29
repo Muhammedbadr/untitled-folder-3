@@ -24,6 +24,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.web-2 {
+    background: rgb(237, 233, 165);
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: white;
@@ -112,8 +116,9 @@ nav {
     background-color: white;
 }
 
+
+
 .main-heading p {
-    width: 1500px;
     margin: 0 auto 100px;
     max-width: 100%;
     line-height: 2;
@@ -997,7 +1002,7 @@ footer .imges {
 }
 
 footer .imges img {
-    width: 250px;
+    width: 230px;
     height: 120px;
     filter: grayscale(100%) brightness(400%);
     margin-bottom: 20px;
@@ -1009,13 +1014,6 @@ footer .container {
     grid-template-columns: 2fr 1fr 1fr 1fr;
 
     grid-gap: 10px;
-}
-
-footer .continer {
-    position: absolute;
-    top: -100px;
-    left: 0;
-    background: url(wave.png);
 }
 
 footer .container .sec h2 {
@@ -1033,4 +1031,80 @@ footer .container .sec h2::before {
     width: 50px;
     height: 2px;
     background: #ffeb3b;
+}
+
+footer .container .sec p {
+    color: white;
+}
+
+.sci {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-gap: 7px;
+}
+
+.sci li a {
+    display: inline-block;
+    width: 45px;
+    height: 48px;
+    background: #025ce2;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.sci li a:hover {
+    background: #2174f1;
+}
+
+.sci li a .fa {
+    color: white;
+    font-size: 20px;
+}
+
+.quicklin li a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.quicklin li a:hover,
+.info li a:hover {
+    color: #ffeb3b;
+}
+
+.info {
+    position: relative;
+
+}
+
+.info li {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin-bottom: 15px;
+}
+
+.info li span:nth-child(1) {
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.Contact .info a {
+    color: white;
+}
+
+.copytext {
+    background: #1170fe;
+    width: 100%;
+    padding: 10px 100px;
+    color: white;
+    text-align: center;
+    font-size: 17px;
 }
