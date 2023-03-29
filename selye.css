@@ -1125,6 +1125,10 @@ footer .container .sec p {
     footer .container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .copytext {
+        padding: 8px 40px;
+    }
 }
 
 @media(max-width:767px) {
