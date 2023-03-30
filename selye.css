@@ -25,7 +25,7 @@ html {
 }
 
 .web-2 {
-    background: rgb(237, 233, 165);
+    background: white;
 }
 
 body {
@@ -125,6 +125,86 @@ nav {
     color: #999;
 }
 
+
+.main-title {
+    text-transform: uppercase;
+    margin: 0 auto 80px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 30px;
+    width: fit-content;
+    position: relative;
+    z-index: 1;
+    transition: var(--main-transition);
+
+}
+
+.main-title::before,
+.main-title::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: var(--main-color);
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main-title::before {
+    left: -30px;
+}
+
+.main-title::after {
+    right: -30px;
+}
+
+.main-title:hover::before {
+    z-index: -1;
+    animation: left-move 0.5s linear forwards;
+}
+
+.main-title:hover::after {
+    z-index: -1;
+    animation: right-move 0.5s linear forwards;
+}
+
+.main-title:hover {
+    color: white;
+    border: 2px solid white;
+    transition-delay: 0.5s;
+}
+
+@keyframes left-move {
+    50% {
+        left: 0;
+        width: 12px;
+        height: 12px;
+    }
+
+    100% {
+        left: 0;
+        border-radius: 0;
+        width: 50%;
+        height: 100%;
+    }
+}
+
+@keyframes right-move {
+    50% {
+        right: 0;
+        width: 12px;
+        height: 12px;
+    }
+
+    100% {
+        right: 0;
+        border-radius: 0;
+        width: 50%;
+        height: 100%;
+    }
+}
+
 header {
 
     position: absolute;
@@ -141,6 +221,12 @@ header .container {
     position: relative;
     min-height: 90px;
 }
+
+header .conta2 {
+    background-color: var(--main-color);
+    width: 100%;
+}
+
 
 header .container::after {
     content: "";
@@ -343,27 +429,6 @@ button[type="submit"] {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 header nav ul li a {
     padding: 40px 10px;
     display: block;
@@ -530,6 +595,12 @@ select#language-select {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
+.box_all {
+
+    padding-top: 200px;
+    padding-bottom: var(--margen-for-title-bottom);
+}
+
 .works .box:hover {
     transform: translateY(-10px);
     box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
@@ -581,7 +652,7 @@ button[type="submit"]:hover {
     background-color: #0062cc;
 }
 
-.btn-bigger {
+.works .btn-bigger {
     font-size: 18px;
     justify-content: center;
     display: grid;
@@ -590,10 +661,13 @@ button[type="submit"]:hover {
     border: none;
     font-size: 20px;
     transition: 0.4s;
+    background-color: orange;
+    padding: 10px;
+    color: white;
 }
 
-.btn-bigger:hover {
-    color: #560000;
+.works .btn-bigger:hover {
+    color: rgb(75, 108, 251);
     font-size: 22px;
 }
 
