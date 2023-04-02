@@ -486,8 +486,8 @@ header nav .form {
 
     min-height: 100vh;
     background-color: slateblue;
-    background-image: url("./imges/immg-01.jpeg");
-    background-size: cover;
+    background-image: url("./imges/ShowCaseImage.jpg");
+    background-size: 100% 100%;
     position: relative;
 }
 
