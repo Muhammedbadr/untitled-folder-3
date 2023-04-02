@@ -1108,7 +1108,8 @@ footer .container .sec h2::before {
     position: absolute;
     bottom: -5px;
     left: 0;
-    width: 50px;
+    width: 20%;
+    justify-content: center;
     height: 2px;
     background: #ffeb3b;
 }
@@ -1213,6 +1214,12 @@ footer .container .sec p {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    footer .container .sec h2::before {
+        display: inline-table;
+        justify-content: left;
+        align-items: center;
+    }
+
     footer {
         text-align: center;
         justify-content: center;
@@ -1220,10 +1227,7 @@ footer .container .sec p {
     }
 
     footer .container .sec h2::before {
-
-        display: flex;
-        text-align: center;
-        align-items: center;
+        width: 100%;
     }
 
 }
