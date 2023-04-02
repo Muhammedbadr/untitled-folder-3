@@ -661,11 +661,11 @@ button[type="submit"] {
     cursor: pointer;
 }
 
-button[type="submit"]:hover {
-    background-color: #0062cc;
-}
 
-.works .btn-bigger {
+
+.btn-bigger,
+.btn-bigger2,
+.btn-bigger3 {
     font-size: 18px;
     justify-content: center;
     display: grid;
@@ -679,27 +679,14 @@ button[type="submit"]:hover {
     color: white;
 }
 
-.works-1 .btn-bigger:hover {
-    color: rgb(75, 108, 251);
-    font-size: 22px;
+.btn-bigger2 {
+    background-color: #007bff;
 }
 
-.works-1 .btn-bigger {
-    font-size: 18px;
-    justify-content: center;
-    display: grid;
-    font-family: var(--fon);
-    margin: 45px auto auto auto;
-    border: none;
-    font-size: 20px;
-    transition: 0.4s;
-    background-color: orange;
-    padding: 10px;
-    color: white;
-}
 
-.works-1 .btn-bigger:hover {
-    color: rgb(75, 108, 251);
+
+.btn-bigger:hover {
+
     font-size: 22px;
 }
 
@@ -761,7 +748,7 @@ button[type="submit"]:hover {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 40px;
-    margin-top: 130px;
+
 }
 
 .class-UN .box {
@@ -1241,23 +1228,8 @@ footer .container .sec p {
 
 }
 
-.features .btn-bigger {
-    font-size: 18px;
-    justify-content: center;
-    display: grid;
-    font-family: var(--fon);
-    margin: 45px auto auto auto;
-    border: none;
-    font-size: 20px;
-    transition: 0.4s;
-    background-color: orange;
-    padding: 10px;
-    color: white;
-}
-
 .features .btn-bigger:hover {
-    color: rgb(75, 108, 251);
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .container-1 {
