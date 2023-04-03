@@ -1278,3 +1278,10 @@ footer .container .sec p {
     background: rgb(0, 138, 254,0.8); 
     padding: 15px;
     }
+    .semi-transparent-un {
+        box-sizing: border-box;
+        background: #fff; /* fallback color for old browsers */
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 99px;
+        padding: 43px;
+        }
