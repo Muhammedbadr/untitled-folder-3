@@ -740,8 +740,19 @@ button[type="submit"] {
     padding-top: 100px;
     padding-bottom: 100px;
     position: relative;
+    background-image: url(imges/un-background.jpg);
+    background-size: 100% 100%;
 
 
+}
+
+.class-UN .overley {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 /40%);
 }
 
 .class-UN .container {
@@ -1242,3 +1253,28 @@ footer .container .sec p {
     padding-bottom: inherit;
     padding-top: inherit;
 }
+.semi-transparent {
+    box-sizing: border-box;
+    background: #fff; /* fallback color for old browsers */
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 99px;
+    width: fit-content;
+  }
+  .h-un-title {
+    position: relative;
+    box-sizing: border-box;
+    background: #fff; /* fallback color for old browsers */
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 99px;
+    width: fit-content;
+    margin: auto;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 70px;
+    padding: 25px;
+  }
+  .foewerd {
+    position: relative;
+    background: rgb(0, 138, 254,0.8); 
+    padding: 15px;
+    }
