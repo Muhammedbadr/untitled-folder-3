@@ -1076,11 +1076,11 @@ button[type="submit"] {
 } */
 
 footer {
-    background-color: #3586ff;
+    background: #065c88;
     position: relative;
     width: 100%;
     height: auto;
-    padding: 50px 100px;
+    padding: 50px 100px 0px 100px;
 
 
 }
@@ -1089,21 +1089,22 @@ footer .imges {
     display: grid;
     justify-content: flex-start;
     align-items: center;
+    margin-right: 20px;
 
 }
 
 footer .imges img {
-    width: 230px;
-    height: 120px;
-    filter: grayscale(100%) brightness(400%);
+    width: 150px;
+    height: 150px;
     margin-bottom: 20px;
+    border-radius: 99px;
+    margin: auto;
 }
 
 footer .container {
     width: 100%;
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-
+    display: flex;
+    padding-left: 0;
     grid-gap: 10px;
 }
 
@@ -1130,7 +1131,6 @@ footer .container .sec p {
 }
 
 .sci {
-    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(4, 50px);
     grid-gap: 7px;
@@ -1179,7 +1179,6 @@ footer .container .sec p {
 .info li {
     display: grid;
     grid-template-columns: 30px 1fr;
-    margin-bottom: 15px;
 }
 
 .info li span:nth-child(1) {
@@ -1193,7 +1192,6 @@ footer .container .sec p {
 }
 
 .copytext {
-    background: #1170fe;
     width: 100%;
     padding: 10px 100px;
     color: white;
@@ -1312,4 +1310,35 @@ footer .container .sec p {
     .mb-40 {
         margin-bottom: 40px;
         font-size: 20px;
+    }
+    .flex {
+        display: flex;
+    }
+    .mr-20 {
+        margin-right: 20px;
+    }
+    .border {
+        border-top: 20px solid #005478;
+        border-bottom: 20px solid #005478;
+    }
+    .m-auto {
+        margin: auto;
+    }
+    .ml-20 {
+        margin-left: 20px;
+    }
+    .border-2 {
+    border-right: 7px solid #0e649b;
+    border-top: 7px solid #0e649b;
+    border-bottom: 7px solid #0e649b;
+    }
+    .semi-transparent-footer {
+        box-sizing: border-box;
+        background: #fff; /* fallback color for old browsers */
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 99px;
+        width: fit-content;
+    }
+    .mb-0{
+        margin-bottom: 0;
     }
