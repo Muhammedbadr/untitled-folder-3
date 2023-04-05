@@ -1285,3 +1285,31 @@ footer .container .sec p {
         border-radius: 99px;
         padding: 43px;
         }
+    .info-1 {
+        background: #065c88;
+        border-top: 20px solid #005478;
+        border-bottom: 20px solid #005478;
+        text-align: center;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .h-info-title {
+      position: relative;
+      box-sizing: border-box;
+      background: #fff; /* fallback color for old browsers */
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 99px;
+      width: fit-content;
+      margin: auto;
+      font-weight: normal;
+      font-size: 20px;
+      padding: 15px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      font-size: 40px;
+      font-weight: normal;
+    }
+    .mb-40 {
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
