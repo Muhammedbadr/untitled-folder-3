@@ -1314,7 +1314,7 @@ footer .container .sec p {
         background: rgba(255, 255, 255, 0.5);
         display: flex;
         position: relative;
-        width: 25%;
+        width: 88%;
         height: 90px;
         border-radius: 90px;
         flex-direction: row;
@@ -1325,7 +1325,7 @@ footer .container .sec p {
         background: rgba(255, 255, 255, 0.5);
         display: flex;
         position: relative;
-        width: 25%;
+        width: 88%;
         height: 90px;
         border-radius: 90px;
         flex-direction: row;
@@ -1339,7 +1339,7 @@ footer .container .sec p {
         bottom: 128px;
         display: flex;
         position: relative;
-        width: 25%;
+        width: 88%;
         height: 90px;
         border-radius: 90px;
         flex-direction: row;
@@ -1389,7 +1389,6 @@ footer .container .sec p {
         padding-right: 5px;
     }
     .inherit {
-        width: inherit;
         height: 200px;
     }
     .h-d-details {
@@ -1406,7 +1405,6 @@ footer .container .sec p {
         padding-bottom: 10px;
     }
     .inherit-1 {
-        width: inherit;
     }
     .class-UN .container a a:hover a:visited {
         text-decoration: none;
