@@ -333,87 +333,6 @@ header nav ul {
     }
 }
 
-.filter-wrapper {
-    position: absolute;
-    background: rgba(238, 235, 233, 0.667);
-    display: flex;
-    border-radius: 30px;
-    top: 300%;
-
-    transform: translateX(-35%);
-}
-
-@media screen and (min-width:1000px) and (max-width:1177px) {
-    .filter-wrapper {
-        position: absolute;
-        background: rgba(238, 235, 233, 0.667);
-        display: flex;
-        border-radius: 30px;
-        top: 231%;
-        right: -85%;
-
-    }
-}
-
-@media screen and (min-width:930px) and (max-width:1000px) {
-    .filter-wrapper {
-        position: absolute;
-        background: rgba(238, 235, 233, 0.667);
-        display: flex;
-        border-radius: 30px;
-        top: 231%;
-        right: -94%;
-
-    }
-}
-
-@media screen and (min-width:300px) and (max-width:900px) {
-    .filter-wrapper {
-        position: absolute;
-        background: rgba(238, 235, 233, 0.667);
-        display: flex;
-        border-radius: 30px;
-        top: 50%;
-        right: 88%;
-
-    }
-}
-
-@media screen and (min-width:700px)and(max-width:1029px) {
-    .filter-wrapper {
-        position: absolute;
-        background: rgba(238, 235, 233, 0.667);
-        display: flex;
-        border-radius: 30px;
-        top: 231%;
-        right: -88%;
-
-    }
-}
-
-.filter-group label {
-    margin-right: 10px;
-}
-
-.filter-group::after {
-    content: ",";
-    color: rgb(0, 0, 0);
-    top: 14px;
-    position: absolute;
-    margin-left: 5px;
-}
-
-.filter-select {
-    padding: 4px 35px;
-    border-radius: inherit;
-    border-image: initial;
-    background-color: transparent;
-    font-size: 15px;
-    border: none;
-    border-bottom: 1px solid rgba(135, 135, 135, 0.857);
-    margin: 4px;
-    margin-left: 18px;
-}
 
 /* Item list styles */
 .item-list {
@@ -533,6 +452,19 @@ header nav .form {
     position: relative;
 }
 
+
+
+.landing {
+
+    height: 100vh;
+    background-color: slateblue;
+    background-image: url("./imges/ShowCaseImage.jpg");
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
 .landing-1 .overley {
     position: absolute;
     left: 0;
@@ -542,14 +474,6 @@ header nav .form {
     background-color: rgb(0 0 0 /55%);
 }
 
-.landing {
-
-    min-height: 100vh;
-    background-color: slateblue;
-    background-image: url("./imges/ShowCaseImage.jpg");
-    background-size: 100% 100%;
-    position: relative;
-}
 
 .landing .overley {
     position: absolute;
@@ -561,16 +485,12 @@ header nav .form {
 }
 
 .landing .text {
-    display: grid;
     padding: 30px;
     position: absolute;
-    left: 0;
     top: 35%;
     transform: translateY(-50%);
-    width: 50%;
     color: black;
-    display: flex;
-    justify-content: flex-end;
+    left: 7%;
 }
 
 @media(max-width:767px) {
@@ -587,12 +507,6 @@ header nav .form {
     font-size: 29px;
     font-weight: normal;
     line-height: 1.4;
-    margin-bottom: 20px;
-}
-
-.landing .text .content p {
-    font-size: 14px;
-    line-height: 1.9;
 }
 
 
@@ -604,6 +518,93 @@ header nav .form {
     }
 }
 
+.content {
+    position: absolute;
+    background: rgba(238, 235, 233, 0.667);
+    padding: 10px;
+    left: 0;
+    top: 80%;
+    border-radius: 30px;
+    margin-left: 15%;
+    color: black;
+
+
+
+}
+
+.filter-wrapper {
+
+    display: flex;
+
+}
+
+@media(max-width:999px) {
+    .content {
+        background: rgba(238, 235, 233, 0.667);
+        border-radius: 3px;
+        top: 60%;
+        right: 0%;
+        width: auto;
+        display: grid;
+        color: black;
+        padding: 40px;
+        left: 0;
+        margin-left: -15%;
+    }
+
+    .filter-wrapper {
+        display: grid;
+
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .filter-select form {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+}
+
+@media(max-width:510px) {
+    .filter-wrapper {
+        display: g;
+    }
+}
+
+
+.filter-group {}
+
+.filter-group label {
+    margin-right: 10px;
+}
+
+.filter-group::after {
+    content: ",";
+    color: rgb(0, 0, 0);
+    top: 20px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.filter-select {
+    padding: 4px 50px;
+    border-radius: inherit;
+    border-image: initial;
+    background-color: transparent;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid rgba(135, 135, 135, 0.857);
+    margin: 4px;
+    margin-left: 18px;
+
+    display: grid;
+
+}
 
 
 
@@ -758,41 +759,50 @@ header nav .form {
 
 }
 
+.class-UN .box .imges img {
+    border-radius: 107px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 199px;
+    left: 34px;
+
+}
 
 .class-UN .container {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* grid-template-columns: repeat(2, 1fr); */
     gap: 40px;
-    font-size: 19px;
 }
 
 .class-UN .box {
-    background: #f9f9f9;
-    display: flex;
-    position: relative;
-    width: 44%;
-    height: 130px;
-    border-radius: 90px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 0px 0px 2px rgb(66, 66, 66);
-    /* z-index: -1; */
+    background: aquamarine;
+    border-radius: solid;
+    width: 110%;
+    height: 220%;
+    box-shadow: -1px 1px 1px 1px;
+    border-radius: 70px;
 
 }
 
-.class-UN .box .imges img {
-    width: 35%;
-    border-radius: 78px;
-    height: 137px;
-    position: absolute;
-    left: -10px;
-    top: -3px;
-
+.class-UN .box .info {
+    margin-left: 34%;
 }
+
+.class-UN .box>h3 {
+    font-size: 32px;
+}
+
+.class-UN .box {}
+
+.class-UN .box .imges img {}
 
 .class-UN .box>h3 {}
 
-.class-UN .box .info {}
+
 
 .class-UN .box .info a {}
 
