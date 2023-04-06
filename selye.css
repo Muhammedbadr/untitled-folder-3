@@ -751,11 +751,11 @@ header nav .form {
 }
 
 .class-UN {
-    padding-top: 100px;
-    padding-bottom: 100vh;
     position: relative;
     background-image: url(imges/un-background.jpg);
     background-size: 100% 100%;
+    padding-top: 50px;
+    padding-bottom: 45px;
 
 
 }
@@ -772,9 +772,8 @@ header nav .form {
 
 .class-UN .container {
     display: grid;
-    gap: 40px;
     font-size: 19px;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-columns: repeat(3, minmax(0px, 1fr));
 
 }
 
@@ -1227,14 +1226,17 @@ footer .container .sec p {
     position: relative;
     box-sizing: border-box;
     background: #fff; /* fallback color for old browsers */
-    background: rgba(255, 255, 255, 0.5);
-    border-radius: 99px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 60px 60px 0px 0px;
     width: fit-content;
     margin: auto;
     font-weight: normal;
-    font-size: 20px;
-    margin-bottom: 70px;
-    padding: 25px;
+    font-size: 33px;
+    padding-left: 45px;
+    padding-right: 45px;
+    width: 70%;
+    padding-top: 15px;
+    height: 72px;
   }
   .foewerd {
     position: relative;
@@ -1244,7 +1246,7 @@ footer .container .sec p {
     .semi-transparent-un {
         box-sizing: border-box;
         background: #fff; /* fallback color for old browsers */
-        background: rgba(255, 255, 255, 0.5);
+        background: rgba(255, 255, 255, 0.3);
         border-radius: 99px;
         padding: 43px;
         }
@@ -1308,12 +1310,12 @@ footer .container .sec p {
         margin-bottom: 0;
     }
     .box-d-1 {
-        top: 69px;
+        top: 42px;
         background: rgba(255, 255, 255, 0.5);
         display: flex;
         position: relative;
-        width: 44%;
-        height: 130px;
+        width: 25%;
+        height: 90px;
         border-radius: 90px;
         flex-direction: row;
         justify-content: end;
@@ -1323,8 +1325,8 @@ footer .container .sec p {
         background: rgba(255, 255, 255, 0.5);
         display: flex;
         position: relative;
-        width: 44%;
-        height: 130px;
+        width: 25%;
+        height: 90px;
         border-radius: 90px;
         flex-direction: row;
         justify-content: center;
@@ -1334,25 +1336,25 @@ footer .container .sec p {
     }
     .box-d-3 {
         background: #448bc6;
-        bottom: 215px;
+        bottom: 128px;
         display: flex;
         position: relative;
-        width: 44%;
-        height: 130px;
+        width: 25%;
+        height: 90px;
         border-radius: 90px;
         flex-direction: row;
         justify-content: center;
         align-items: end;
         z-index: 0;
-        font-size: 25px;
+        font-size: 18px;
     }
     .image-d {
         right: 20px;
-        bottom: 142px;
+        bottom: 86px;
         display: flex;
         position: relative;
-        width: 154px;
-        height: 154px;
+        width: 80px;
+        height: 80px;
         border-radius: 90px;
         flex-direction: row;
         justify-content: center;
@@ -1360,20 +1362,20 @@ footer .container .sec p {
         z-index: 1;
     }
     .uni-title {
-        right: 60px;
+        right: 10px;
         position: relative;
-        top: 15px;
+        top: 10px;
 
     }
     .uni-title span {
-        font-size: 30px;
+        font-size: 25px;
 
     }
     .d-details {
         background: rgba(255, 255, 255, 0.5);
         justify-content: space-between;
-        width: 70%;
-        bottom: 15px;
+        width: 83%;
+        bottom: 9px;
         position: relative;
     }
     .semi {
@@ -1382,7 +1384,31 @@ footer .container .sec p {
     .radu {
         border-radius: 99px;
     }
-    .px-10 {
-        padding-left: 10px;
-        padding-right: 10px;
+    .px-5 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .inherit {
+        width: inherit;
+        height: 200px;
+    }
+    .h-d-details {
+        background: rgba(255, 255, 255, 0.1);
+        justify-content: space-between;
+        bottom: 9px;
+        position: relative;
+    }
+
+    .px-40 {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .inherit-1 {
+        width: inherit;
+    }
+    .class-UN .container a a:hover a:visited {
+        text-decoration: none;
+        color: #333;
     }
