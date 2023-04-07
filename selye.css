@@ -65,7 +65,7 @@ a {
 
 @media (min-width:1200px) {
     .container {
-        width: 1200px;
+        width: 100%;
     }
 }
 
@@ -396,9 +396,9 @@ header nav ul {
 }
 
 .filter-group::after {
-    content: ",";
+    content: "|";
     color: rgb(0, 0, 0);
-    top: 14px;
+    top: 6px;
     position: absolute;
     margin-left: 5px;
 }
@@ -459,21 +459,21 @@ input[type="text"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #f5f1f1;
+    background-color: #448bc6;
     width: 168px;
     height: 36px;
+    color: #fff;
 }
 
 button[type="submit"] {
-    background-color: #d3d2d2;
-    color: #0053ac;
+    background-color: #eff2ff;
+    color: #000000;
     border: none;
     width: 166px;
     height: 36px;
     border-radius: 6px;
     cursor: pointer;
     border-radius: 60px;
-    margin-left: 42px;
     transition: 0.15s;
     font-size: 17px;
 }
@@ -1496,3 +1496,82 @@ footer .container .sec p {
         font-weight: bold;
         font-size: 24px;
     }
+    
+.class-pa {
+    position: relative;
+    background-size: 100% 100%;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    background: #176484;
+
+
+}
+
+
+
+.class-pa .container {
+    display: grid;
+    font-size: 19px;
+        grid-template-columns: repeat(3, minmax(0px, 1fr));
+
+}
+
+.class-pa .box {
+    background: #f9f9f9;
+    display: flex;
+    position: relative;
+    width: 44%;
+    height: 130px;
+    border-radius: 90px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 0px 2px rgb(66, 66, 66);
+    /* z-index: -1; */
+
+}
+.pt-118 {
+    padding-top: 117px;
+}
+.text-h {
+    width: fit-content;
+    margin-bottom: 70px;
+    top: 30px;
+    position: relative;
+    color: #fff;
+    left: 80px;
+}
+.semi-transparent-pa {
+    box-sizing: border-box;
+    background: #fff; /* fallback color for old browsers */
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 99px;
+}
+.pl-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.filter-wrapper-sc {
+    margin: auto;
+    position: relative;
+    background: rgba(238, 235, 233, 0.667);
+    display: flex;
+    border-radius: 30px;
+    margin-bottom: 35px;
+    width: fit-content;
+    padding-right: 20px;
+}
+.w-pa{
+    margin: auto;
+}
+.borders-pa {
+
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 15px;
+}
+.plr-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
