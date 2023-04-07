@@ -1599,3 +1599,18 @@ footer .container .sec p {
     width: fit-content;
     padding-right: 20px;
 }
+.ar-im {
+    width: 1050px;
+    border-radius: inherit;
+}
+.table {
+    display: table;
+}
+.article { 
+    position: relative;
+    margin-left: 44px;
+}
+.my-40 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
