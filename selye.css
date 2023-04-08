@@ -251,7 +251,7 @@ header .conta2 {
 header .logo img {
     filter: grayscale(900%) brightness(900%);
     min-width: 40%;
-    max-width: 50%;
+    max-width: 195px;
 }
 
 header nav {
