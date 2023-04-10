@@ -242,6 +242,7 @@ header .container4 {
     min-height: 90px;
 }
 
+
 header .conta2 {
     background-color: #027a9b;
     width: 100%;
@@ -1336,8 +1337,6 @@ footer .container .sec p {
     padding: 43px;
 }
 
-
-
 .info-1 {
     background: #065c88;
     border-top: 20px solid #005478;
@@ -1441,7 +1440,7 @@ footer .container .sec p {
 }
 
 @media (max-width:600px) {
-    .border .container4 {
+    .border .container {
         display: grid;
         box-sizing: border-box;
         border-radius: 100px;
