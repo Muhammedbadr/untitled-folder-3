@@ -1530,7 +1530,7 @@ footer .container .sec p {
     right: 10px;
     position: relative;
     top: 10px;
-
+    color: #000000;
 }
 
 .uni-title span {
@@ -1575,6 +1575,7 @@ footer .container .sec p {
     padding-right: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
+    color: black;
 }
 
 .box-d-3-un {
@@ -1627,12 +1628,14 @@ footer .container .sec p {
     position: relative;
     top: 33px;
     margin: auto;
+    color: #000000;
 }
 
 .text-un-2 {
     position: relative;
     top: 14px;
     margin: auto;
+    color: #000000;
 }
 
 .grid {
